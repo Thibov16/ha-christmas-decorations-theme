@@ -1,0 +1,50 @@
+Christmas Decorations:
+    card-mod-theme: "Christmas Decorations"
+    modes:
+        light: {}
+        dark: {}
+    card-mod-root: |
+        .header {
+            position: relative;
+        }
+        .header::after {
+            content: "";
+            position: absolute;
+            display: block;
+            bottom: -23px;
+            width: 100%;
+            height: 26px;
+            background: url('/local/themes/christmas-string-lights.svg');
+            background-size: contain;
+            pointer-events: none;
+        }
+    card-mod-top-app-bar-fixed: |
+        header {
+            position: relative;
+        }
+        header::after {
+            content: "";
+            position: absolute;
+            display: block;
+            bottom: -23px;
+            width: 100%;
+            height: 26px;
+            background: url('/local/themes/christmas-string-lights.svg');
+            background-size: contain;
+            pointer-events: none;
+        }
+    card-mod-developer-tools: |
+        .header {
+            position: relative;
+        }
+        .header::after {
+            content: "";
+            position: absolute;
+            display: block;
+            bottom: -23px;
+            width: 100%;
+            height: 26px;
+            background: url('/local/themes/christmas-string-lights.svg);
+            background-size: contain;
+            pointer-events: none;
+        }
